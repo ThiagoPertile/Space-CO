@@ -1,0 +1,19 @@
+@import url(styles/cabecalho.css);
+
+:root {
+    /* Variaveis COR */
+    --azul-principal: #6065F1;
+    --cinza-principal: #616161;
+    --branco: #FFFFFF;
+    /* Variaveis Gradients */
+    --azul-escuro-degrade: linear-gradient(180deg, #4032C9 0%, #231C80 100%);
+    --azul-claro-degrade: linear-gradient(180deg, #6456ED 0%, #483FB5 100%);
+    /* variaveis Font */
+    --font-exo: "Exo", sans-serif;
+    --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font-exo);
+    font-weight: 400;
+}

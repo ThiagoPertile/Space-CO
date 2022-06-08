@@ -1,0 +1,21 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:  1200px;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+.cabecalho__lista {
+    display: flex;
+}
+
+.cabecalho__item {
+    padding: 0 18px;
+
+}
+.cabecalho__item a {
+    text-decoration: none;
+    color: var(--cinza-principal);
+}

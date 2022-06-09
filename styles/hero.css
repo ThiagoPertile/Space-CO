@@ -1,7 +1,11 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .hero {
     display: flex;
     padding: 8rem 0;
-    margin: 0 22.5rem 0 22.5rem;
 }
 
 .chamada__titulo {
